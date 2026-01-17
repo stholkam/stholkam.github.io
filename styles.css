@@ -1,0 +1,121 @@
+@import url("https://use.typekit.net/rnx4veb.css");
+
+@font-face {
+  font-family: 'Gap Sans';
+  src: url('fonts/gapsans-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gap Sans Bold';
+  src: url('fonts/gapsansbold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gap Sans Black';
+  src: url('fonts/gapsansblack-webfont.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+*{box-sizing: border-box;}
+
+
+body{
+    padding-left:50vh;
+    padding-top:5vh;
+}
+
+body.home{
+    background-color: orange;
+    padding:0vh;
+}
+
+body.recipe1{
+    background-color: orangered;
+}
+
+body.recipe2{
+    background-color: orange;
+}
+
+body.recipe3{
+    background-color: green;
+}
+
+body.recipe4{
+    background-color: orange;
+}
+
+.booktitle{
+    width:100vw;
+    height:1.5vh;
+    color: orangered;
+    font-family: 'lust-display', serif;
+    display:flex;
+    justify-content:center;
+}
+
+.subtitle{
+    font-family: 'Gap Sans Bold', serif;
+    color: green;
+    display:flex;
+    justify-content: center;
+}
+
+h2.credit{
+    color:orangered;
+    display:flex;
+    justify-content:center;
+}
+
+a{
+    color:magenta;
+    font-family: 'Gap Sans', serif;
+}
+
+h1, h2, ul, ol{
+    font-family: 'Gap Sans', serif;
+}
+
+.recipes{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    height:100vh;
+
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: magenta;
+  font-size: 18pt;
+  font-family: 'Gap Sans Black', serif;
+  text-transform: lowercase;
+  text-decoration: none;
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.r1 {
+  background-image: url(Images/DSCF3075.JPG);
+}
+
+.r2 {
+  background-image: url(Images/DSCF3072.2.jpg);
+}
+
+.r3 {
+  background-image: url(Images/DSCF3098.JPG);
+}
+
+.r4 {
+  background-image: url(Images/DSCF3087-2.jpg);
+}
