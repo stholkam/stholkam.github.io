@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sri Lankan Recipes</title>
+  <link rel="stylesheet" href="https://use.typekit.net/rnx4veb.css">
+
+  <style>
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @font-face {
+      font-family: 'Gap Sans';
+      src: url('fonts/gapsans-webfont.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Gap Sans Bold';
+      src: url('fonts/gapsansbold-webfont.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Gap Sans Black';
+      src: url('fonts/gapsansblack-webfont.woff2') format('woff2');
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      font-size: 15pt;
+      background-color: #fc2aeb;
+    }
+
+    p {
+      font-family: 'Gap Sans', sans-serif;
+    }
+
+    h2 {
+      font-family: 'Gap Sans Black';
+    }
+
+    h3 {
+      font-family: 'Gap Sans Bold';
+    }
+
+    h4{
+      font-family:'Gap Sans', sans-serif;
+      font-size: 9pt;
+    }
+
+    a{
+      color:#fc2aeb;
+    }
+
+    ul{
+      list-style: none;
+      line-height: 1.2;
+      padding: 20;
+      margin: 0;
+      font-family: 'Gap Sans', sans-serif;
+      text-transform: lowercase;
+    }
+
+    ol{
+      font-family: 'Gap Sans', sans-serif;
+    }
+
+    .recipe1 h4{color: rgb(5, 78, 5);}
+    .recipe1 h2{color: orangered;}
+
+    .recipe2 ol{color:rgb(5, 78, 5) ;}
+    .recipe2 h2{color:rgb(5, 78, 5);}
+    .recipe2 ul, .recipe2 h3{color:orange;}
+
+    .recipe3 ol,.recipe3 h2{color:orangered;}
+    .recipe3 h3,.recipe3 ul{color:green;}
+
+    .recipe4 ul, .recipe4 h3{color: orange;}
+    .recipe4 h2, .recipe4 ol{color: orangered;}
+
+    .recipe5 h3, .recipe5 ul{color:green;}
+    .recipe5 h2{color:green;} 
+    .recipe5 ol li {
+      color: orange;
+      background-color: #fc2aeb;
+      padding: 6px 10px;
+      margin-bottom: 8px;
+    }
+    .recipe5 ol {list-style-position: inside;}
+
+    .recipe6 h2, .recipe6 ol{color:rgb(5, 78, 5);}
+    .recipe6 h3, .recipe6 ul{color: orange;}
+    
+
+    .section-inner {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .title {
+      background-color: orange;
+      padding: 60px 0;
+    }
+
+    h3.titlesub{
+      color: green !important;
+      line-height:0;
+    }
+
+    .booktitle {
+      font-family: 'lust-display', serif;
+      color: #fc2aeb;
+      font-size: 40px;
+      text-align: right;
+      line-height:1;
+    }
+
+    .contents {
+      background-color: #fc2aeb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 0;
+      color: green;
+    }
+
+    .contents h2 {
+      color: orange;
+    }
+
+    .contents a {
+
+    color: inherit; 
+}
+
+
+    .text-backdrop {
+      background-color: white;
+      padding: 60px;
+      max-width: 500px;
+      text-align: left;
+    }
+
+    /* recipe sections */
+    .recipe1 { background-color: orange; padding: 60px 0; }
+    .recipe2 { background-color: orangered; padding: 60px 0; }
+    .recipe3 { background-color: orange; padding: 60px 0; }
+    .recipe4 { background-color: green; padding: 60px 0; }
+    .recipe5 { background-color: orange; padding: 60px 0; }
+    .recipe6 { background-color: orangered; padding: 60px 0; }
+    .polaroid { background-color: #fc2aeb; padding: 60px 0;}
+  </style>
+</head>
+
+<body>
+
+<!-- title -->
+<div class="title">
+  <div class="section-inner">
+    <h1 class="booktitle">Sri Lankan<br> Recipes</h1>
+    <img src="Images/IMG_2938.2.jpg" alt="Three friends eating" width="500">
+    <h3 class="titlesub">to feed your friends:)</h3>
+    <h3 class="titlesub">by <a href="https://www.instagram.com/samoawithabrush/" target="_blank">sanka tholka mudalige</a></h3>
+  </div>
+</div>
+
+<!-- contents -->
+<div class="contents">
+  <div class="text-backdrop">
+    <h2>contents</h2>
+    <ul>
+      <li><a href="#curry powder">Sri Lankan Curry Powder</a></li>
+      <li><a href="#chicken curry">Chicken Curry</a></li>
+      <li><a href="#parippu">Parippu</a></li>
+      <li><a href="#bandakka">Bandakka</a></li>
+      <li><a href="#leeks">Leeks</a></li>
+      <li><a href="#pol sambol">Pol Sambol</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<section>
+
+
+<!-- recipe 1 -->
+<div class="recipe1" id="curry powder">
+  <div class="section-inner">
+    <h2>Sri Lankan Curry Powder</h2>
+    <iframe width="500" height="281"
+      src="https://www.youtube.com/embed/UY3GqyAslsA?si=_eWlYtuvh1tcod0q"
+      title="YouTube video player"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+    <h4>Recipe via Anoma's Kitchen on YouTube.</h4>
+  </div>
+</div>
+
+<!-- recipe 2 -->
+<div class="recipe2" id="chicken curry">
+  <div class="section-inner">
+    <h2>Chicken Curry</h2>
+    <img src="Images/DSCF3075.JPG" width="500">
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Chicken breast/thigh</li>
+      <li>Tomato</li>
+      <li>Onion</li>
+      <li>Green chili</li>
+      <li>Sri Lankan curry powder</li>
+      <li>Turmeric</li>
+      <li>Black pepper</li>
+      <li>Chili powder</li>
+      <li>Coconut milk</li>
+    </ul>
+  <ol>
+    <li>Cut chicken into small pieces and season with salt, pepper, and chili powder.</li>
+    <li>In a separate bowl, add chopped tomato, red onion, green chili, garlic and curry leaves.</li>
+    <li>Using a clay pot if you have one, add oil and put on stove on medium heat.</li>
+    <li>When the pot is hot, add cut vegetables. Add curry powder, turmeric, black pepper, chili powder.</li>
+    <li>Allow to sauté for a little bit, then add chicken with a bit of water. Cover and allow to boil.</li>
+    <li>After allowing to boil until mostly cooked, add coconut milk, stir, and allow to boil until cooked through.</li>
+  </ol>
+  </div>
+</div>
+
+<!-- recipe 3 -->
+<div class="recipe3" id="parippu">
+  <div class="section-inner">
+    <h2>Parippu</h2>
+    <img src="Images/DSCF3072.2.jpg" width="500">
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Red lentils</li>
+      <li>Mustard seeds</li>
+      <li>Onion</li>
+      <li>Indian green chili</li>
+      <li>Garlic</li>
+      <li>Vegetable oil or butter</li>
+      <li>Salt</li>
+      <li>Turmeric</li>
+      <li>Chili powder</li>
+      <li>Coconut milk</li>
+      <li>Optionally, curry leaf</li>
+    </ul>
+    <ol>
+      <li>Wash red lentils until the water runs clear and is free of debris.</li>
+      <li>Add the lentils to a pot with a small amount of water and bring to a boil.</li>
+      <li>While boiling, finely dice the red onion, garlic, and green chili.</li>
+      <li>After boiling, remove the lentils and place them in a separate bowl.</li>
+      <li>Over medium-high heat, add the oil or butter to the pot.</li>
+      <li>Allow the oil to heat, then add the mustard seeds.</li>
+      <li>When the mustard seeds begin popping, add the onion, garlic, and curry leaves.</li>
+      <li>Season both the lentils and vegetables in the pot with chili powder, salt, and turmeric. Allow to sauté for 30–60 seconds, then reintroduce the lentils and stir.</li>
+      <li>Dilute the coconut milk with water in a separate container, then add it to the pot; adjust as needed.</li>
+      <li>Enjoy with rice, roti, etc.</li>
+    </ol>
+
+  </div>
+</div>
+
+<!-- recipe 4 -->
+<div class="recipe4" id="bandakka">
+  <div class="section-inner">
+    <h2>Bandakka</h2>
+    <img src="Images/DSCF3098.JPG" width="500">
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Okra</li>
+      <li>Vegetable oil</li>
+      <li>Red pepper flakes</li>
+      <li>Chili powder</li>
+      <li>Turmeric</li>
+      <li>Red onion</li>
+      <li>Garlic</li>
+      <li>Salt</li>
+    </ul>
+    <ol>
+      <li>Wash the okra.</li>
+      <li>Cut off the top part of the okra, then chop the okra at an angle until the end.</li>
+      <li>Mix with a pinch of turmeric and season with salt.</li>
+      <li>Slice the onion and finely chop the garlic.</li>
+      <li>Heat a skillet over low–medium heat and add the okra to toast and remove the slimy texture.</li>
+      <li>Remove the okra from the skillet and place it in a separate bowl.</li>
+      <li>Pour oil into the skillet, wait until heated, then add the garlic, onion, tomato, and salt.</li>
+      <li>Once the onions are soft, add the okra back in for a few minutes.</li>
+      <li>Add red pepper flakes, chili powder, and salt to taste.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- recipe 5 -->
+<div class="recipe5" id="leeks">
+  <div class="section-inner">
+    <h2>Leeks</h2>
+    <img src="Images/DSCF3087-2.jpg" width="500">
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Leeks</li>
+      <li>Vegetable oil</li>
+      <li>Chili powder</li>
+      <li>Red pepper flakes</li>
+      <li>Turmeric</li>
+      <li>Red onion</li>
+      <li>Garlic</li>
+      <li>Salt</li>
+    </ul>
+    <ol>
+      <li>Wash leeks thoroughly, removing any debris.</li>
+      <li>Cut into thin slices.</li>
+      <li>Pour oil in pan, over medium heat. Allow it to warm.</li>
+      <li>Add onion & turmeric, cooking until translucent.</li>
+      <li>Add leeks, mix well with onion and put heat on medium-low.</li>
+      <li>Allow to cook for a few minutes and soften, then season with red pepper, salt, and chili powder.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- recipe 6 -->
+<div class="recipe6" id="pol sambol">
+  <div class="section-inner">
+    <h2>Pol Sambol</h2>
+    <img src="Images/IMG_2919.png" width="500">
+    <h3>Ingredients</h3>
+    <ul>
+      <li>Grated coconut</li>
+      <li>Red onion</li>
+      <li>Indian green chili</li>
+      <li>Lime</li>
+      <li>Chili powder</li>
+      <li>Black pepper</li>
+      <li>Salt</li>
+    </ul>
+    <ol>
+      <li>Add onions, green chilis, salt, black pepper, and chili powder to a mortar and pestle.</li>
+      <li>Grind the mixture.</li>
+      <li>Add the coconut to the mortar and pestle and crush together.</li>
+      <li>Adjust seasoning to taste and finish with lime juice.</li>
+    </ol>
+  </div>
+</div>
+
+</section>
+<div class="polaroid">
+  <div class="section-inner">
+    <img src="Images/polaroids.jpg" width="500">
+    <h4>ethan and jordan enjoying some of these recipes:)</h4>
+  </div>
+</div>
+</body>
+</html>
