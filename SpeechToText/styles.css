@@ -44,7 +44,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'lust-display', serif;
-    font-size: 20vw;
+    font-size: 50vw;
     color: rgb(21, 0, 255);
     z-index: 0;
     pointer-events: none; /*from online! lets the clicks pass through*/
