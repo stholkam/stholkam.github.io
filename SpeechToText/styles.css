@@ -1,0 +1,93 @@
+@import url("https://use.typekit.net/rnx4veb.css");
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* prevents user from scrolling out of the scope of the image despite text increasing height of page */
+html,body{
+    overflow:hidden;
+    height:100%;
+}
+
+body {
+    background-image:
+        url(bgGif.gif),
+        url(bgImg.jpg);
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    background-size:
+        cover,
+        cover;
+
+    background-position:
+        center,
+        center;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: url('cursor.png'), auto
+}
+
+/* controls the display of the word counter behind the text */
+#words {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'lust-display', serif;
+    font-size: 20vw;
+    color: rgb(21, 0, 255);
+    z-index: 0;
+    pointer-events: none; /*from online! lets the clicks pass through*/
+    user-select: none; /*makes it so users cannot select it*/
+    text-align: center;
+    mix-blend-mode: overlay;
+}
+
+a{
+    font-family: 'lust-display', serif;
+    line-height: 1.1;
+    color: red;
+    text-shadow: 0 0 15px deeppink;
+    font-size: clamp(2rem, 50vw, 100pt);
+    text-align:center;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    mix-blend-mode: difference;
+    cursor: url('cursor.png'), auto
+}
+
+/* class that helps position the buttons */
+.controls {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  gap: 20vh;
+  z-index: 1000;
+}
+
+/* individual button styling */
+button {
+  border-radius: 50%;
+  padding: 20px;
+  font-family: 'lust-display', serif;
+  font-size:3rem;
+  background-color: rgba(240, 248, 255, 0);
+  color:magenta;
+  border:0;
+  mix-blend-mode: multiply;
+  cursor: url('cursor.png'), auto;
+  text-shadow: 0 0 15px orangered;
+}
