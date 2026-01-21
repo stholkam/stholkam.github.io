@@ -1,0 +1,166 @@
+@import url("https://use.typekit.net/rnx4veb.css");
+
+@font-face {
+  font-family: 'Gap Sans';
+  src: url('fonts/gapsans-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gap Sans Bold';
+  src: url('fonts/gapsansbold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gap Sans Black';
+  src: url('fonts/gapsansblack-webfont.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+*{box-sizing: border-box;
+    cursor: url(Images/leafcursor.png), auto;}
+
+
+h1,h2{
+  font-size: 5rem;
+  line-height: 1rem;
+}
+
+#subsecret{
+  text-decoration: none;
+  color: green;
+  margin-left: .18em;
+}
+
+
+body{
+    padding-left:50vh;
+    padding-top:5vh;
+    cursor: url(Images/leafcursor.png), auto;
+    border: 10px solid red;
+    border-bottom: 0;
+    border-radius: 12px;
+    overflow:hidden
+
+}
+
+body.home{
+    background-color: orange;
+    padding:0vh;
+    height:120vh;
+}
+
+body.recipe1{
+    background-color: orangered;
+    height:100vh;
+}
+
+body.recipe2{
+    background-color: orange;
+    height:100vh;
+}
+
+body.recipe3{
+    background-color: green;
+    height:100vh;
+}
+
+body.recipe4{
+    background-color: orange;
+    height:100vh;
+}
+
+.booktitle{
+    width:100vw;
+    height:1.5vh;
+    color: orangered;
+    font-family: 'lust-display', serif;
+    display:flex;
+    justify-content:center;
+}
+
+.subtitle{
+    font-family: 'Gap Sans Bold', serif;
+    color: green;
+    display:flex;
+    justify-content: center;
+}
+
+h2.credit{
+    color:orangered;
+    display:flex;
+    justify-content:center;
+}
+
+a{
+    color:magenta;
+    font-family: 'Gap Sans', serif;
+}
+
+a:hover {
+  cursor: url('Images/leafcursorred.png'), pointer;
+}
+
+h1, h2, ul, ol{
+    font-family: 'Gap Sans', serif;
+}
+
+.recipes{
+    display:grid;
+    height:100vh;
+
+}
+
+.recipe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: magenta;
+  text-shadow: 0 0 15px deeppink;
+  font-size: 3rem;
+  font-family: 'Gap Sans Black', serif;
+  text-transform: lowercase;
+  text-decoration: none;
+
+  background-size: 100vw,100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition:0.5s;
+
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+
+}
+
+.recipe:hover{
+  color:crimson;
+  transform:rotate(0deg);
+}
+
+.r1 {
+  background-image: url(Images/DSCF3075.JPG);
+  transform: translateY(10vh) rotate(5deg);
+}
+
+.r2 {
+  background-image: url(Images/DSCF3072.2.jpg);
+  transform: translateY(20vh) rotate(-4deg);
+
+}
+
+.r3 {
+  background-image: url(Images/DSCF3098.JPG);
+  transform: translateY(35vh) rotate(7deg);
+
+}
+
+.r4 {
+  background-image: url(Images/DSCF3087-2.jpg);
+  transform: translateY(50vh) rotate(-3deg);
+}
