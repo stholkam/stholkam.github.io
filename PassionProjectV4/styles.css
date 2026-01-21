@@ -157,6 +157,7 @@ h1, h2, ul, ol{
 .r3 {
   background-image: url(Images/DSCF3098.jpg);
   transform: translateY(35vh) rotate(7deg);
+  background-color: green;
 
 }
 
