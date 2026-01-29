@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/rnx4veb.css");
+
+html, body{
+    overscroll-behavior: none;
+    background: radial-gradient(circle at center, #080b16, #02030a);
+    display: flex;
+    justify-content: center;
+    cursor: url('assets/heartsor.png'), auto;
+}
+
+.space{
+    position: relative;
+}
+
+#titlo{
+    font-family: 'lust-display', serif;
+    position: absolute;
+    inset: 0;                 
+    z-index: 10;
+    mix-blend-mode: difference;
+    color: white;
+    writing-mode: vertical-rl;
+    font-size: 21rem;
+    pointer-events: none;
+}
+
+a{
+    cursor: url('assets/heartsor2.png'), auto;
+}
+
+img{
+    display: inline-block;
+    margin:auto;
+    scale: 1;
+    width: 120px;
+    transition: transform 0.6s ease-in-out;
+    transition: filter 0.3s ease;
+}
+
+img:hover {
+    filter:
+        drop-shadow(0 0 30px rgba(120,160,255,.8))
+        drop-shadow(0 0 80px rgba(120,160,255,.4))
+        drop-shadow(0 20px 40px rgba(0,0,0,.6))
+        brightness(1.2);
+}
+
+
+.float {
+    animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%   { transform: translate(0px, 0px) rotate(0deg); }
+    20%  { transform: translate(10px, -8px) rotate(1deg); }
+    40%  { transform: translate(-6px, 6px) rotate(-1.2deg); }
+    60%  { transform: translate(8px, 12px) rotate(0.8deg); }
+    80%  { transform: translate(-10px, -10px) rotate(-0.5deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
