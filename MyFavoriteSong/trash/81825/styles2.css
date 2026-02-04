@@ -1,0 +1,76 @@
+body, html{
+    cursor: none;
+}
+
+body{
+    background-color: rgb(20, 0, 0);
+}
+
+
+.folders {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+
+.folders img{
+    width: 60px;
+    image-rendering: pixelated;
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+.folders a {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: -3s;
+    color: white;
+    text-decoration: none;
+    font-family: 'helvetica neue', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* slight variation so they don’t move in sync */
+.folders a:nth-child(2) {
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+.folders a:nth-child(3) {
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+}
+.folders a:nth-child(4) {
+    animation-duration: 8s;
+}
+
+.folders a:hover {
+    filter:
+        drop-shadow(0 0 30px rgba(120,160,255,.8))
+        drop-shadow(0 0 80px rgba(120,160,255,.4))
+        drop-shadow(0 20px 40px rgba(0,0,0,.6))
+        brightness(1.2);
+}
+
+@keyframes float {
+    0%   { transform: translateY(0) rotate(deg); }
+    50%  { transform: translateY(-15px) rotate(1.3deg); }
+    100% { transform: translateY(0) rotate(0deg); }
+}
+
+#camc{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: none;
+}
+
