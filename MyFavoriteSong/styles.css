@@ -4,6 +4,7 @@ html{
 
 html, body{
     overflow:hidden;
+    background-color: rgb(255, 247, 244);
 }
 
 .background video {

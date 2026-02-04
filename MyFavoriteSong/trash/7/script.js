@@ -19,7 +19,7 @@ ticker.addEventListener("click", () => {
     ticker.innerHTML = `<img draggable="false" src="../../Assets/img/folder-icon.png">idontknowyou.mp3`;
   }
   else if (clickCount >= 5) {
-    window.location.href = "../../index.html";
+    window.location.href = "../..";
   }
 });
 
